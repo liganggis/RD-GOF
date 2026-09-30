@@ -83,4 +83,4 @@ We have provided the script in the folder (https://github.com/liganggis/RD-GOF/s
 ## BibTex
 
 
-And thanks to the authors of [3D Gaussians](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/), [PGSR](https://github.com/zju3dv/PGSR) and[GGGS](https://baowenz.github.io/geometry_grounded_gaussian_splatting/) for their excellent code, please consider citing these repositories.
+And thanks to the authors of [3D Gaussians](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/), [PGSR](https://github.com/zju3dv/PGSR) and [GGGS](https://baowenz.github.io/geometry_grounded_gaussian_splatting/) for their excellent code, please consider citing these repositories.
