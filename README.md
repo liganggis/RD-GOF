@@ -2,7 +2,7 @@
 
 ![teaser](assets/synthetic0.png)
 
-This project aim to achieve fast surface reconstruction from 3D Gaussian Splatting (3DGS). We will release all source code upon paper acceptance.
+This project aim to introduce a rasterization-driven method for constructing Gaussian opacity fields, thereby achieving high-fidelity and efficient surface reconstruction from 3D Gaussian Splatting (3DGS). We will release all source code upon paper acceptance.
 
 ## Dataset
 
