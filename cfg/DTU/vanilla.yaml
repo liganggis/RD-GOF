@@ -1,0 +1,33 @@
+model:
+  multi_view_num: 6
+  multi_view_max_angle: 45
+  multi_view_min_dis: 0.01
+  multi_view_max_dis: 1.5
+
+  kernel_size: 0.0
+  data_device: 'cuda'
+  
+  length_threshold: 0.002
+  bias: 0
+  scale_ratio: 3.0
+  add_internal_point: False
+
+  bound_scale_ratio: 1
+
+optimization:
+  multi_view_patch_size: 2
+  seed: 22
+
+  densify_until_iter: 12000
+  single_view_weight_from_iter: 7000
+  multi_view_weight_from_iter: 12000
+
+  ncc_threshold: 0.9
+  depth_normal_loss_ratio: 0.6
+  
+  single_view_weight: 0.1
+  multi_view_ncc_weight: 0.1
+
+  densify_abs_grad_threshold: 0.0008 
+  opacity_cull_threshold: 0.05 
+  exposure_compensation: False
